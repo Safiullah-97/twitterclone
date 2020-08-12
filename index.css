@@ -1,0 +1,40 @@
+#div1{
+    background-image: url('twi.png');
+    opacity: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100ch;
+    opacity: 95%;
+
+}
+  legend{
+      opacity: 100%;
+      color:whitesmoke;
+       text-align: center;
+       padding-top: 12ch; 
+       padding-left: 24ch;
+       width: 45ch;
+       font-size: 24px;
+       font-style: oblique;
+       font-variant: small-caps;
+       box-shadow: transparent;
+  }
+  #div5{
+      margin-left: 110ch;
+      margin-top: -100ch;
+width: 40%;
+height: 100ch;
+margin-right: 5px;
+font-style: oblique;
+font-display: red;
+font-variant: initial;
+
+  }
+   
+  #div6{
+        margin-left: 200px;
+        margin-top: -48px;
+        padding-left: 45px;
+        padding-inline-start: 6px;
+    
+  }

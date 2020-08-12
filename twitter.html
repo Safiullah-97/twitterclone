@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">           
+
+<div id="div1">
+
+    <Legend>
+       
+        <i class='fas fa-search' <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Follow your interest</h3></i>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <i class="material-icons"  style="font-size:21px"> <h3> &#xe7fc&nbsp;&nbsp; Hear what people are talking about</h3>
+        </i>
+
+        <h3>Join the conversation</h3>
+    </Legend>
+  </div>
+
+
+</div>
+   
+<div id="div5">
+<div>
+    
+Phone, Email or Username
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="text" id="username">  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ <div id="div6">
+
+   Password  
+   
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+<input type="text"; id="password">
+
+<input  onclick="done()" 
+  style=" -moz-text-decoration-style: solid;font-weight: 500;font-style: oblique; font-family: Arial, Helvetica, sans-serif ;
+  border-color: #3399ff;font-size: 14px; color: #0073e6; border-radius: 27px ;width: 9ch; height: 5ch;"
+   type="button" value="Login">
+ </div>
+
+<div id="div7">
+    <img style="width: 8ch; height: 9ch; margin-top: 20px;" src="picture.png">  
+<h2 style="padding-top: 2ch; font-size: 05ch;"> See What is happening in the world right now </h2>
+<h3 style="font-size: 19px; font-style:inherit;">Join twitter today.</h3>
+
+<input style="margin-top: 3ch; border-color: #66c2ff;color: whitesmoke; background-color: #3399ff;width: 40ch; border-radius: 17px;
+font-size: 16px;margin-left: 35px;text-align: center; height: 45px;" 
+
+type="button" value="Sign up" onclick="myfunction()">
+
+<input style="margin-top: 3ch; border-color: #66c2ff;;color: #0059b3; background-color: whitesmoke;width: 40ch; border-radius: 17px;
+font-size: 16px;margin-left: 35px;text-align: center; height: 45px;" 
+
+type="button" value="Login" onclick="login()">
+
+
+<script>
+function myfunction(){
+
+    var name = window.prompt("Enter your name: ");
+    var id= window.prompt("Enter your id: ");
+   var Password=window.prompt("Enter your password: ");
+
+   if(Password.length<8)
+    alert("Your password should be more the 8 charachter, including numbers")
+
+    else
+    (alert("Your name is"+" " +name + " "+"Your id is "+ " "  +id + " " + "Your pass is"+ " " + " "+ Password))   
+}
+
+function login(){
+
+    var username=window.prompt("Enter your Username: ");
+    var Password=window.prompt("Enter your password: ");
+    if(Password.length<8)
+    alert("Enter uppercase and numbers to continue")
+
+    else
+    (alert('You have loged in'))
+}
+
+
+function done(){
+
+if (username= " ") {
+    alert("You cant login with empty password and username")
+}
+ else {
+ (alert("logged in"))}
+}
+</script>
+</div>
+</div>
+</div>
+</body>
+</html>
